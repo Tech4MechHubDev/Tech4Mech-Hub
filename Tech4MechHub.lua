@@ -9,7 +9,7 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
  
 local Window = Library.CreateLib("Tech4Mech HUB|V 1.1", "Serpent")
  
-local Tab = Window:NewTab("Main")
+local Tab = Window:NewTab("👓 Main")
 local MainUniSection = Tab:NewSection("Universal")
 
 
@@ -422,7 +422,7 @@ MainUniSection:NewButton("RTX ", "Makes The Game Beautyful", function()
 print("RTX On!")
 end)
 
-local Tab = Window:NewTab("Hubs")
+local Tab = Window:NewTab("👍 Hubs")
 local MainHubSection = Tab:NewSection("Hubs")
 
 MainHubSection:NewButton("Owlhub", "A universal aimbot script!", function()
