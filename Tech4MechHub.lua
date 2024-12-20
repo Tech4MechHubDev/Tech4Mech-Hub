@@ -1,4 +1,4 @@
-
+ 
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Script Executed Succesfully!   Have Fun!";
 	Text = "Thank you for using my scripts!";
@@ -378,15 +378,7 @@ MainUniSection:NewButton("Dex ", "Dex Explorer", function()
 end)
 
 
-MainUniSection:NewButton("Inf Zoom ", "Makes it so that you cann zoom infenentilly out", function()
-    getgenv().host = game:GetService'Players'.LocalPlayer
 
-host.CameraMaxZoomDistance = math.huge
-end)
-
-MainUniSection:NewButton("Swim Fly TEST ", "Dex Explorer", function()
-    loadstring(game:HttpGet('https://pastebin.com/raw/Tq0ZZhZ2'))()
-end)
 
 MainUniSection:NewButton("TP Tool", "Gives You a tool to click TP", function()
  
@@ -467,12 +459,17 @@ GameSection:NewButton("Dress To Impress", "Dress To Impress script!", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/hellohellohell012321/DTI-GUI-V2/main/dti_gui_v2.lua",true))()
 end)
 
-
-
-GameSection:NewButton("Fisch (no key)", "Fisch script!", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua"))()
+GameSection:NewButton("Doors (key)", "Doors script! You will need a key!", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/Loader.lua"))()
 end)
 
+GameSection:NewButton("Fisch (no key)", "Fisch script!", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/Kncrypt/refs/heads/main/sources/Fisch.lua"))()
+end)
+
+GameSection:NewButton("Fisch 2(no key)", "Fisch script 2!", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua"))()
+end)
 
 GameSection:NewButton("Iron man simulator 2", "Iron Man Simulator 2 Script with ghost suit and more!", function()
     loadstring(game:HttpGet('https://github.com/bifungiji/the-scripter/raw/main/Ims2'))()
@@ -505,7 +502,6 @@ GameSection:NewButton("Pet Simulator 99", "Pet Sim 99 Script!", function()
 end)
 
 
-
 local Tab = Window:NewTab("🧍 Player")
 local PlayerSection = Tab:NewSection("Player")
 
@@ -518,11 +514,22 @@ PlayerSection:NewSlider("Jump Power", "This is For changing how high you jump.(d
     game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
 end)
 
-
 PlayerSection:NewSlider("Health/HP", "This Changes your health(may not work in all games)", 19000, 50, function(s) -- 500 (MaxValue) | 0 (MinValue)
     game.Players.LocalPlayer.Character.Humanoid.MaxHealth = s
     game.Players.LocalPlayer.Character.Humanoid.Health = s
 end)
+
+PlayerSection:NewButton("INF Jump", "Double Jump Infinite times", function()
+local LocalP = game:GetService("Players").LocalPlayer
+local Uis = game:GetService("UserInputService")
+local Infjump = true 
+Uis.JumpRequest:Connect(function()
+    if Infjump == true and LocalP.Character then 
+        LocalP.Character:FindFirstChildOfClass("Humanoid"):ChangeState("Jumping")
+    end
+end)
+end)
+
 
 PlayerSection:NewButton("Suicide ", "Do Suicide (You do respawn after)", function()
     game.Players.LocalPlayer.Character.Head:Destroy()
@@ -532,9 +539,6 @@ if game.Players.LocalPlayer.Character.Humanoid.Health < 5 then
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(deathmanok)
     end
 end)
-
-
-
 
 
 
