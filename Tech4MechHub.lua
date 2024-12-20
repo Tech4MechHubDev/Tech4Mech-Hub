@@ -1029,6 +1029,10 @@ GameSection:NewButton("Prison Life", "Prison life script!", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/elliexmln/PrizzLife/main/pladmin.lua'))()
 end)
 
+GameSection:NewButton("Prison Life 2", "Prison life script 2!", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/TheDarkoneMarcillisePex/Other-Scripts/main/Prison%20Life%20GUI'))()
+end)
+
 local Tab = Window:NewTab("🧍 Player")
 local PlayerSection = Tab:NewSection("Player")
 
