@@ -1020,6 +1020,14 @@ GameSection:NewButton("Pet Simulator 99", "Pet Sim 99 Script!", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Muhammad6196/Tests/main/wd_Arise/loader.lua"))()
 end)
 
+GameSection:NewButton("Prison Adventure", "Prison Adventure script!", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/TheDarkoneMarcillisePex/Other-Scripts/refs/heads/main/Prison%20Adventure%20GUI'))()
+end)
+
+
+GameSection:NewButton("Prison Life", "Prison life script!", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/elliexmln/PrizzLife/main/pladmin.lua'))()
+end)
 
 local Tab = Window:NewTab("🧍 Player")
 local PlayerSection = Tab:NewSection("Player")
