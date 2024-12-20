@@ -5,7 +5,7 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
 	Icon = "rbxthumb://type=Asset&id=7969699183&w=150&h=150"})
 Duration = 80;
 wait(0.1)print("Thx For Using Tech4Mech Script!")
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Tech4MechHubDev/Tech4Mech-Hub/refs/heads/main/UI%20lib"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
  
 local Window = Library.CreateLib("Tech4Mech HUB|V 1.3", "Serpent")
  
