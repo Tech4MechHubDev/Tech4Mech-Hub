@@ -437,7 +437,7 @@ end)
 
 
 
-local Tab = Window:NewTab("Game Scripts")
+local Tab = Window:NewTab("🎮 Game Scripts")
 local GameSection = Tab:NewSection("Game Scripts")
 
 GameSection:NewButton("Arsenal", "Arsenal Script. Includes Esp Aimbot Silent aim and more!", function()
