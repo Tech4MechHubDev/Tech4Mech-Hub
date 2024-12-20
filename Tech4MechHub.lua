@@ -457,6 +457,9 @@ GameSection:NewButton("Brookhaven", "Brookhaven script (Sander X)", function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/sXPiterXs1111/Sanderxv3.30/main/sanderx3.30')))()
 end)
 
+GameSection:NewButton("BedWars", "BedWars Script!", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+end)
 
 GameSection:NewButton("Dress To Impress", "Dress To Impress script!", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/hellohellohell012321/DTI-GUI-V2/main/dti_gui_v2.lua",true))()
