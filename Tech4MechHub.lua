@@ -482,7 +482,7 @@ GameSection:NewButton("Iron man simulator 2", "Iron Man Simulator 2 Script with 
 end)
 
 GameSection:NewButton("LiveTopia", "LiveTopia Script!", function()
-    loadstring(game:HttpGet("https://gist.githubusercontent.com/TurkOyuncu99/64688239cb733cb02ef020cc226de57b/raw/404308ff851a0015590c218ffea2071b7d7f6b47/hhrh", true))() 
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/TheDarkoneMarcillisePex/Other-Scripts/main/Live%20Topia%20GUI'))()
 end)
 
 GameSection:NewButton("Ninja Legends", "Autofarm, Auto sell and more!", function()
