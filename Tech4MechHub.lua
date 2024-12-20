@@ -8,9 +8,9 @@ wait(0.1)print("Thx For Using Tech4Mech Script!")
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 
  local colors = {
-        SchemeColor = Color3.fromRGB(86, 76, 251),
+        SchemeColor = Color3.fromRGB(0, 0, 204),
         Background = Color3.fromRGB(10, 10, 10),
-        Header = Color3.fromRGB(0, 0, 204),
+        Header = Color3.fromRGB(5, 5, 5),
         TextColor = Color3.fromRGB(200, 200, 200),
         ElementColor = Color3.fromRGB(20, 20, 20)
 }
