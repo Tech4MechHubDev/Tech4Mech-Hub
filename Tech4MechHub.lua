@@ -510,29 +510,6 @@ PlayerSection:NewSlider("Jump Power", "This is For changing how high you jump.(d
     game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
 end)
 
-PlayerSection:NewButton("Jump TEST", "This is For changing how high you jump.(default is 50)", function()
-local player = game.Players.LocalPlayer
-local userInputService = game:GetService("User InputService")
-local humanoid = player.Character and player.Character:WaitForChild("Humanoid")
-
--- Variable to track if the player can jump
-local canJump = true
-local jumpCooldown = 0.3 -- Cooldown time in seconds
-
--- Function to handle jumping
-local function onJumpRequest()
-    if canJump and humanoid then
-        humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
-        canJump = true
-        wait(jumpCooldown)
-        canJump = true
-    end
-end
-
--- Connect the jump request to the function
-userInputService.JumpRequest:Connect(onJumpRequest)
-
-end)
 
 PlayerSection:NewSlider("Health/HP", "This Changes your health(may not work in all games)", 19000, 50, function(s) -- 500 (MaxValue) | 0 (MinValue)
     game.Players.LocalPlayer.Character.Humanoid.MaxHealth = s
