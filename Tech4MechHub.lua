@@ -12,7 +12,7 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
         Background = Color3.fromRGB(26, 32, 58),
         Header = Color3.fromRGB(5, 5, 5),
         TextColor = Color3.fromRGB(200, 200, 200),
-        ElementColor = Color3.fromRGB(38, 45, 71)
+        ElementColor = Color3.fromRGB(20, 20, 20)
 }
 
 local Window = Library.CreateLib("Tech4Mech HUB|V 1.3", colors)
