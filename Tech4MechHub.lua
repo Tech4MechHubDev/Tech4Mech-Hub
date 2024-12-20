@@ -481,6 +481,10 @@ GameSection:NewButton("Iron man simulator 2", "Iron Man Simulator 2 Script with 
     loadstring(game:HttpGet('https://github.com/bifungiji/the-scripter/raw/main/Ims2'))()
 end)
 
+GameSection:NewButton("LiveTopia", "LiveTopia Script!", function()
+    loadstring(game:HttpGet("https://gist.githubusercontent.com/TurkOyuncu99/64688239cb733cb02ef020cc226de57b/raw/404308ff851a0015590c218ffea2071b7d7f6b47/hhrh", true))() 
+end)
+
 GameSection:NewButton("Ninja Legends", "Autofarm, Auto sell and more!", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/refs/heads/master/scripts/NinjaLegends.lua"))()
 end)
