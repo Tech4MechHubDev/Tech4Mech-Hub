@@ -985,11 +985,6 @@ end)
 GameSection:NewButton("Fisch 2(no key)", "Fisch script 2!", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua"))()
 end)
-
-GameSection:NewButton("Fisch 3", "Fisch script 3!", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/Kncrypt/refs/heads/main/sources/Fisch.lua"))()
-end)
-
 	
 GameSection:NewButton("Iron man simulator 2", "Iron Man Simulator 2 Script with ghost suit and more!", function()
     loadstring(game:HttpGet('https://github.com/bifungiji/the-scripter/raw/main/Ims2'))()
