@@ -7,7 +7,7 @@ Duration = 80;
 wait(0.1)print("Thx For Using Tech4Mech Script!")
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Tech4MechHubDev/Tech4Mech-Hub/refs/heads/main/UI%20lib"))()
  
-local Window = Library.CreateLib("Tech4Mech HUB|V 1.3", "OceanSerpent")
+local Window = Library.CreateLib("Tech4Mech HUB|V 1.3", "Serpent")
  
 local Tab = Window:NewTab("👓 Main")
 local MainUniSection = Tab:NewSection("Universal")
