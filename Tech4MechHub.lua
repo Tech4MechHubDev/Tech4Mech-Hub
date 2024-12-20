@@ -378,7 +378,11 @@ MainUniSection:NewButton("Dex ", "Dex Explorer", function()
 end)
 
 
+MainUniSection:NewButton("Inf Zoom TEST", "Dex Explorer", function()
+    getgenv().host = game:GetService'Players'.LocalPlayer
 
+host.CameraMaxZoomDistance = math.huge
+end)
 
 MainUniSection:NewButton("TP Tool", "Gives You a tool to click TP", function()
  
