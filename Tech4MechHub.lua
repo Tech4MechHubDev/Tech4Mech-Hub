@@ -465,8 +465,8 @@ GameSection:NewButton("Dress To Impress", "Dress To Impress script!", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/hellohellohell012321/DTI-GUI-V2/main/dti_gui_v2.lua",true))()
 end)
 
-GameSection:NewButton("Doors (key)", "Doors script! You will need a key!", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/Loader.lua"))()
+GameSection:NewButton("Doors ", "Doors script! You will need a key!", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/Kncrypt/refs/heads/main/sources/Doors.lua"))()
 end)
 
 GameSection:NewButton("Fisch (no key)", "Fisch script!", function()
