@@ -11,7 +11,7 @@ local Window = Library.CreateLib("Tech4Mech HUB|V 1.1", "Serpent")
  
 local Tab = Window:NewTab("Main")
 local MainUniSection = Tab:NewSection("Universal")
-local MainHubSection = Tab:NewSection("Hubs")
+
 
 MainUniSection:NewButton("Universal Esp", "Just a Universal ESP Gui (Works in all games!)", function()
 
@@ -421,6 +421,9 @@ MainUniSection:NewButton("RTX ", "Makes The Game Beautyful", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/beJhkj3m"))()
 print("RTX On!")
 end)
+
+local Tab = Window:NewTab("Hubs")
+local MainHubSection = Tab:NewSection("Hubs")
 
 MainHubSection:NewButton("Owlhub", "A universal aimbot script!", function()
     loadstring(game:HttpGet(("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"),true))()
