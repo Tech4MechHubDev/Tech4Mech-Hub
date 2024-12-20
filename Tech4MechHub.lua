@@ -10,8 +10,8 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
  local colors = {
         SchemeColor = Color3.fromRGB(86, 76, 251),
         Background = Color3.fromRGB(26, 32, 58),
-        Header = Color3.fromRGB(5, 5, 5),
-        TextColor = Color3.fromRGB(200, 200, 200),
+        Header = Color3.fromRGB(22, 29, 31),
+        TextColor = Color3.fromRGB(255, 255, 255),
         ElementColor = Color3.fromRGB(20, 20, 20)
 }
 
