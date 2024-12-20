@@ -7,7 +7,7 @@ Duration = 80;
 wait(0.1)print("Thx For Using Tech4Mech Script!")
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
  
-local Window = Library.CreateLib("Tech4Mech HUB|V 1.0", "Serpent")
+local Window = Library.CreateLib("Tech4Mech HUB|V 1.1", "Serpent")
  
 local Tab = Window:NewTab("Main")
 local MainUniSection = Tab:NewSection("Universal")
