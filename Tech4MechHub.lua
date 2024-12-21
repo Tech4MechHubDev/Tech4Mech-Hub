@@ -453,7 +453,7 @@ local Tab = Window:NewTab("🎮 Game Scripts")
 local GameSection = Tab:NewSection("Game Scripts")
 
 GameSection:NewButton("Arsenal", "Arsenal Script. Includes Esp Aimbot Silent aim and more!", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoHubArsenal"))()
+    https://raw.githubusercontent.com/RileyBeeRBLX3/Elijah-Hub-V2/refs/heads/main/NewElijahHubV2Arsenal.lua
 end)
 
 
