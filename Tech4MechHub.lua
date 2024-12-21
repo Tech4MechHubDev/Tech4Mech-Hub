@@ -1017,6 +1017,9 @@ GameSection:NewButton("Obby But Your On A Bike", "Script for Obby But Your´e on
     loadstring(game:HttpGet('https://pastebin.com/raw/njuhL3rM'))()
 end)
 
+GameSection:NewButton("War Machines", "war Machines Script!Includes Auto Farm, NPC Bigger Hitbox And a bit more!", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xtrey10x/xtrey10x-hub/main/War%20Machines"))()
+end)
 
 GameSection:NewButton("Pet Simulator X", "Pet Sim X Script!", function()
     getgenv().key = "projectWBIsAwesomeG8J7GJ678PY"
