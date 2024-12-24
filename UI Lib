@@ -2,7 +2,7 @@
 -- This is not hyprland --
 
 local Library = {
-	Version = 'Acrylic.1.4',
+	Version = 'V.1.4',
 	Loaded = true,
 	Discord = 'discord.gg/wPaQZwhMHy',
 	env = getgenv or getfenv,
