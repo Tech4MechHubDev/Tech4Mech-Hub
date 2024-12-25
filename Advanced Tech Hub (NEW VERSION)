@@ -492,6 +492,14 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
+	Title = "Blox Fruits 2",
+	Tip = "Blox Fruits Script 2!",
+	Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+	end,
+})
+
+Tab:AddButton({
 	Title = "Brookhaven",
 	Tip = "Brookhaven Script!",
 	Callback = function()
